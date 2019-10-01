@@ -37,11 +37,12 @@ html {
 }
 
 .banner {
+  background-image: url("../images/banner.jpg");
   background-image: linear-gradient(to bottom, );
 }
 
 .banner-content {
-  background-image: url("../images/banner.jpg");
+  background-image: url("../images/two-leaves.svg");
   background-repeat: no-repeat;
   padding-top: 300px;
 }
