@@ -37,8 +37,10 @@ html {
 }
 
 .banner {
-  background-image: url("../images/banner.jpg");
-  background-image: linear-gradient(to bottom, );
+  background-image: linear-gradient(to bottom, transparent, rgba(16, 52, 41, 0), rgba(16, 52, 41, .8)), url("../images/banner.jpg");
+  background-position: center bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .banner-content {
