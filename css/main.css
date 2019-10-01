@@ -6,8 +6,8 @@ html {
 .masthead {
   background-color: #588477;
   background-image: url("../images/leaf-bg.svg");
-  background-size: 65px auto;
-  background-position: left top;
+  background-size: 64px auto;
+  background-position: center;
   border: 3px solid #2d5a4d;
 }
 
@@ -30,10 +30,10 @@ html {
 .nav a:hover {
   color: #145b1d;
   background-color: #fff;
-  background-image: url("../images/leaf-bg.svg");
+  background-image: url("../images/leaf-icon.svg");
   background-repeat: no-repeat;
-  background-position: left;
-  background-size: 160px;
+  background-position: center;
+  background-size: 60px;
 }
 
 .banner {
@@ -43,6 +43,7 @@ html {
 .banner-content {
   background-image: url("../images/banner.jpg");
   background-repeat: no-repeat;
+  padding-top: 300px;
 }
 
 @media only screen and (min-width: 60em) {
